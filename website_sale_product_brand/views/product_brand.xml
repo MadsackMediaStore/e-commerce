@@ -58,17 +58,17 @@
     </template>
 
     <!-- Menu in website for Brand -->
-    <record id="menu_website_sale_shop" model="website.menu">
+    <!--<record id="menu_website_sale_shop" model="website.menu">
         <field name="name">Shop All</field>
         <field name="url">/shop</field>
         <field name="parent_id" ref="website_sale.menu_shop" />
-    </record>
+    </record>-->
 
-    <record id="menu_website_sale_brand" model="website.menu">
+    <!--<record id="menu_website_sale_brand" model="website.menu">
         <field name="name">Shop by Brand</field>
         <field name="url">/page/product_brands</field>
         <field name="parent_id" ref="website_sale.menu_shop" />
-    </record>
+    </record>-->
 
     </data>
 </openerp>
